@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hargun</title>
+</head>
+
+<body>
+    <h2>Welcome to registration</h2>
+        <form action="backend.py">
+        <label for="name">Name</label>
+            <div>
+                <input type="text" name="myname" id="name">
+            </div>
+            <br>
+            <div>
+                Age : <input type="text" name="myage">
+            </div><br>
+            <div>
+                Date <input type="date" value="mydate">
+            </div><br>
+            <div>
+                Gender Male <input type="radio" name="MyGender" >
+                Female <input type="radio"  name ="MyGender">
+            </div><br>
+            <div>
+                Write about yourself <br> <textarea name="mytext"></textarea>
+            </div>
+            <div>
+                 Are you sure ? <input type="checkbox" name="myCheckbox">
+            </div><br>
+            <div>
+                <label for="car">Car</label>
+                <select name="mycar" id="car">
+                <option value="IND">Indica</option>
+                <option value="swt" selected>Swift</option>
+                </select>
+            </div><br>
+            <div>
+                <input type="submit" value="submit now">
+                <input type="reset" value="resetnow">
+            </div>
+        </form>
+</body>
+
+</html>
